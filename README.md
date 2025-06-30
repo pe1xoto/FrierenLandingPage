@@ -11,7 +11,7 @@
 
 ## 🚀 Live Demo
 
-**[>> View Live Demo <<](https://frieren-landing-page-5nv7kn33n-pe1xotos-projects.vercel.app/))**
+**[>> View Live Demo <<](https://frieren-landing-page-5nv7kn33n-pe1xotos-projects.vercel.app/)**
 
 ---
 
