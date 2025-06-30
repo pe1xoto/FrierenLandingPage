@@ -13,71 +13,26 @@
 
 **[>> Clique aqui para ver o site ao vivo <<](https://seu-usuario.github.io/seu-repositorio/)**
 
-*(Instrução: Substitua o link acima pelo link do seu site no GitHub Pages, Vercel, etc.)*
-
 ---
 
 ## 📸 Previews
 
 | Home Section | Characters Section | About Me Section |
 | :---: | :---: | :---: |
-| ![Home Section Preview](previews/home.jpg) | ![Characters Section Preview](previews/characters.jpg) | ![About Me Section Preview](previews/about-me.jpg) |
+| ![Home Section Preview](FrierenLandingpage/HOME.png) | ![Characters Section Preview](FrierenLandingpage/CHARACTERS.png) | ![About Me Section Preview](FrierenLandingpage/ABOUTME.png) |
 
-*(Instrução: Crie uma pasta chamada `previews` no seu projeto, adicione suas 3 imagens (`home.jpg`, `characters.jpg`, `about-me.jpg`) e o GitHub irá mostrá-las aqui.)*
 
 ---
 
 ## 📝 About The Project
 
-I created this landing page project for "Frieren" using only **HTML, CSS, and vanilla JavaScript**, with **GSAP (GreenSock Animation Platform)** to handle the complex animations.
+I created this landing page project for "Frieren" using only **HTML, CSS, vanilla JavaScript,** and the **GSAP** library for animations. The entire design was made by me in Figma.
 
-The entire design was made by me in **Figma**. The project also features two beautiful fanarts I found on Google Images, used in the Hero and "About Me" sections.
+**⚠️ Important Viewing Note:**
 
-**⚠️ Responsiveness Note:**
-Please be aware that this project is **not yet fully responsive**. It was designed and optimized for a **1920x1080 (16:9)** monitor. While it has a basic media query for mobile, there may be layout flaws on other resolutions like 1600x900. I plan to address these responsiveness issues in the future.
+This project is not very responsive, I kinda got lazy about fixing it. It was developed on a **1920x1080 (16:9)** monitor and is best viewed at a **1920x911** resolution.
 
----
-
-## ✨ Features
-
-* **Custom Loading Screen:** An initial loading animation before the main content appears.
-* **Animated Sections:** Each section has its own choreographed entrance animation.
-    * The "Home" section animates on page load.
-    * The "Characters" section animates on scroll, triggered by **ScrollTrigger**.
-* **Interactive Character Switcher:** A fully functional and animated character selector that dynamically changes the section's content and background.
-* **Infinite Diagonal Slider:** A custom-built, infinitely looping slider for the "About Me" section, created with CSS animations and `clip-path`.
-* **Smooth Scrolling Navigation:** A header that smoothly navigates between page sections.
-
----
-
-## 🛠️ Technologies Used
-
-* **HTML5**
-* **CSS3**
-    * Flexbox for layout
-    * `position: absolute` for complex layering
-    * `@keyframes` for the infinite slider
-    * `clip-path` for custom shapes
-* **Vanilla JavaScript** for interactivity
-* **GSAP (GreenSock Animation Platform)**
-    * `Timeline` for choreographing complex animation sequences.
-    * `ScrollTrigger` plugin to trigger animations on scroll.
-
----
-
-## ⚙️ How to Run Locally
-
-To run this project on your local machine, simply follow these steps:
-
-1.  Clone the repository:
-    ```sh
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-    ```
-2.  Navigate to the project folder:
-    ```sh
-    cd seu-repositorio
-    ```
-3.  Open the `index.html` file in your favorite browser.
+Maybe I'll get around to fixing the responsiveness issues someday!
 
 ---
 
