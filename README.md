@@ -11,7 +11,7 @@
 
 ## 🚀 Live Demo
 
-**[>> Clique aqui para ver o site ao vivo <<](https://seu-usuario.github.io/seu-repositorio/)**
+**[>> View Live Demo <<]([https://seu-usuario.github.io/seu-repositorio/](https://frieren-landing-page-5nv7kn33n-pe1xotos-projects.vercel.app/))**
 
 ---
 
