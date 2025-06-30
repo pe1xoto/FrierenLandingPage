@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frieren - Beyond Journey's End</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto:wght@400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&family=Montserrat:wght@600;800&family=Roboto:wght@400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      defer
+    ></script>
+    <link rel="icon" type="image/png" href="images/iconnew.png" />
+  </head>
+  <body>
+    <div class="loading-screen">
+      <img src="images/cajado.svg" alt="Cajado de Frieren" class="staff" />
+    </div>
+
+    <section class="hero-section">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#home-section" class="active">Home</a></li>
+
+            <li><a href="#characters-section">Characters</a></li>
+
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#about-section">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="hero-content">
+        <div class="hero-text">
+          <img
+            src="images/titulo-frieren.png"
+            alt="Título Sousou no Frieren"
+            class="title-image"
+          />
+          <p>
+            Beyond Journey’s End follows Frieren, an elven mage who defeated the
+            Demon King alongside a group of heroes. As her friends grow old and
+            pass away, Frieren lives on — reflecting on the passage of time, the
+            value of relationships, and what it truly means to be alive.
+          </p>
+        </div>
+        <div class="hero-image">
+          <img
+            src="images/frieren-hero2.png"
+            alt="Personagem Frieren"
+            class="character-image"
+          />
+        </div>
+      </main>
+    </section>
+
+    <section id="characters-section">
+      <h2 class="section-title">CHARACTERS</h2>
+
+      <div class="characters-content">
+        <div class="character-selector">
+          <ul>
+            <li class="character-list-item active" data-character="frieren">
+              <span class="selector-dot"></span>
+              <img
+                src="images/icon-frieren.png"
+                alt="Ícone de Frieren"
+                class="selector-icon"
+              />
+              <span class="selector-name">FRIEREN</span>
+            </li>
+            <li class="character-list-item" data-character="fern">
+              <span class="selector-dot"></span>
+              <img
+                src="images/icon-fern.png"
+                alt="Ícone de Fern"
+                class="selector-icon"
+              />
+              <span class="selector-name">FERN</span>
+            </li>
+            <li class="character-list-item" data-character="stark">
+              <span class="selector-dot"></span>
+              <img
+                src="images/icon-stark.png"
+                alt="Ícone de Stark"
+                class="selector-icon"
+              />
+              <span class="selector-name">STARK</span>
+            </li>
+            <li class="character-list-item" data-character="himmel">
+              <span class="selector-dot"></span>
+              <img
+                src="images/icon-himmel.png"
+                alt="Ícone de Himmel"
+                class="selector-icon"
+              />
+              <span class="selector-name">HIMMEL</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="character-display">
+          <div class="character-info-panel active" id="frieren-content">
+            <div class="description-box">
+              <img
+                src="images/seu-banner-vermelho.png"
+                alt=""
+                class="brush-banner"
+              />
+              <h3 class="character-name">FRIEREN</h3>
+              <p class="character-description">
+                An elven mage who has lived for centuries. She was a member of
+                the group of heroes that defeated the Demon King, but while her
+                companions grow old and pass away, Frieren lives much longer.
+              </p>
+            </div>
+            <span class="japanese-name">フリーレン</span>
+            <img
+              src="images/char-frieren.png"
+              alt="Imagem de Frieren"
+              class="main-character-image frieren-img"
+            />
+          </div>
+
+          <div class="character-info-panel" id="fern-content">
+            <div class="description-box">
+              <img
+                src="images/seu-banner-laranja.png"
+                alt=""
+                class="brush-banner"
+              />
+              <h3 class="character-name">FERN</h3>
+              <p class="character-description">
+                A young mage and Frieren's pupil. She is mature for her age,
+                responsible, and hard-working — acting as the team's emotional
+                anchor during difficult moments.
+              </p>
+            </div>
+            <span class="japanese-name">フェルン</span>
+            <img
+              src="images/char-fern.png"
+              alt="Imagem de Fern"
+              class="main-character-image fern-img"
+            />
+          </div>
+
+          <div class="character-info-panel" id="stark-content">
+            <div class="description-box">
+              <img
+                src="images/seu-banner-roxo.png"
+                alt=""
+                class="brush-banner"
+              />
+              <h3 class="character-name">STARK</h3>
+              <p class="character-description">
+                A brave warrior who was orphaned as a child. He is timid and
+                unsure of his own abilities but shows great courage in battle
+                alongside Frieren and Fern.
+              </p>
+            </div>
+            <span class="japanese-name">シュタルク</span>
+            <img
+              src="images/char-stark.png"
+              alt="Imagem de Stark"
+              class="main-character-image stark-img"
+            />
+          </div>
+
+          <div class="character-info-panel" id="himmel-content">
+            <div class="description-box">
+              <img
+                src="images/seu-banner-vermelho.png"
+                alt=""
+                class="brush-banner"
+              />
+              <h3 class="character-name">HIMMEL</h3>
+              <p class="character-description">
+                The hero who defeated the Demon King alongside Frieren. He was a
+                kind, compassionate swordsman who left a deep impact on the
+                people he met.
+              </p>
+            </div>
+            <span class="japanese-name">ヒンメル</span>
+            <img
+              src="images/char-himmel.png"
+              alt="Imagem de Himmel"
+              class="main-character-image himmel-img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-section">
+      <div class="about-text-box">
+        <h3>PE1XOTO</h3>
+        <p>
+          Hi there<br />
+          I'm Peixoto (21 y.o) !<br />
+          I tackle big challenges using tech. <br />
+          Learning more every day to become a Front and Back End developer with
+          general knowledge and expertise in design as well.
+        </p>
+      </div>
+
+      <div class="containerchefe">
+        <div class="containerpai">
+          <div class="tech-slider-container">
+            <div class="tech-logos">
+              <img src="images/tech/java.png" alt="Java" />
+              <img src="images/tech/react.png" alt="React" />
+              <img src="images/tech/spring.png" alt="Spring" />
+              <img src="images/tech/js.png" alt="JavaScript" />
+              <img src="images/tech/ts.png" alt="TypeScript" />
+              <img src="images/tech/angular.png" alt="Angular" />
+              <img src="images/tech/ae.png" alt="Ae" />
+              <img src="images/tech/blender.png" alt="Blender" />
+              <img src="images/tech/postgres.png" alt="Postgres" />
+              <img src="images/tech/figma.png" alt="Figma" />
+              <img src="images/tech/docker.png" alt="Docker" />
+              <img src="images/tech/illustrator.png" alt="Illustrator" />
+              <img src="images/tech/prime.png" alt="Prime" />
+              <img src="images/tech/heidi.png" alt="Heidi" />
+              <img src="images/tech/dbeaver.png" alt="Dbeaver" />
+              <img src="images/tech/pr.png" alt="Premiere" />
+              <img src="images/tech/mysql.png" alt="Mysql" />
+              <img src="images/tech/ps.png" alt="Photoshop" />
+
+              <img src="images/tech/java.png" alt="Java" />
+              <img src="images/tech/react.png" alt="React" />
+              <img src="images/tech/spring.png" alt="Spring" />
+              <img src="images/tech/js.png" alt="JavaScript" />
+              <img src="images/tech/ts.png" alt="TypeScript" />
+              <img src="images/tech/angular.png" alt="Angular" />
+              <img src="images/tech/ae.png" alt="Ae" />
+              <img src="images/tech/blender.png" alt="Blender" />
+              <img src="images/tech/postgres.png" alt="Postgres" />
+              <img src="images/tech/figma.png" alt="Figma" />
+              <img src="images/tech/docker.png" alt="Docker" />
+              <img src="images/tech/illustrator.png" alt="Illustrator" />
+              <img src="images/tech/prime.png" alt="Prime" />
+              <img src="images/tech/heidi.png" alt="Heidi" />
+              <img src="images/tech/dbeaver.png" alt="Dbeaver" />
+              <img src="images/tech/pr.png" alt="Premiere" />
+              <img src="images/tech/mysql.png" alt="Mysql" />
+              <img src="images/tech/ps.png" alt="Photoshop" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="social-links">
+        <a href="https://github.com/pe1xoto" target="_blank"
+          ><img src="images/icon-github.png" alt="GitHub" class="social-icon"
+        /></a>
+        <a href="https://www.behance.net/peixotofps" target="_blank"
+          ><img src="images/icon-behance.png" alt="Behance" class="social-icon"
+        /></a>
+        <a href="mailto:gustavobarbosape1xoto@gmail.com"
+          ><img src="images/icon-gmail.png" alt="Gmail" class="social-icon"
+        /></a>
+      </div>
+    </section>
+
+    <script>
+      window.addEventListener("load", () => {
+        gsap.registerPlugin(ScrollTrigger);
+
+        const loadingScreen = document.querySelector(".loading-screen");
+        setTimeout(() => {
+          loadingScreen.classList.add("hidden");
+          startHeroAnimation();
+        }, 2000);
+
+        function startHeroAnimation() {
+          const tl = gsap.timeline();
+          tl.from(".hero-section .character-image", {
+            duration: 1.2,
+            x: 100,
+            autoAlpha: 0,
+            ease: "power3.out",
+          })
+            .from(
+              ".hero-section .title-image",
+              { duration: 1, scale: 0.95, autoAlpha: 0, ease: "power2.out" },
+              "-=0.8"
+            )
+            .from(
+              ".hero-section .hero-text p",
+              { duration: 1, y: 50, autoAlpha: 0, ease: "power2.out" },
+              "-=0.7"
+            )
+            .from(
+              ".hero-section header nav a",
+              {
+                duration: 0.8,
+                y: -50,
+                autoAlpha: 0,
+                ease: "power2.out",
+                stagger: 0.15,
+              },
+              "-=0.5"
+            );
+        }
+
+        const sections = document.querySelectorAll("section[id]");
+        const navLinks = document.querySelectorAll("header nav a");
+
+        const changeNavOnScroll = () => {
+          let index = sections.length;
+
+          while (--index && window.scrollY + 50 < sections[index].offsetTop) {}
+
+          navLinks.forEach((link) => link.classList.remove("active"));
+
+          const activeLink = document.querySelector(
+            `header nav a[href*=${sections[index].id}]`
+          );
+          if (activeLink) {
+            activeLink.classList.add("active");
+          }
+        };
+
+        changeNavOnScroll();
+
+        window.addEventListener("scroll", changeNavOnScroll);
+
+        const entranceTl = gsap.timeline({
+          scrollTrigger: {
+            trigger: "#characters-section",
+            start: "top center",
+            once: true,
+          },
+        });
+
+        entranceTl
+          .to("#characters-section .section-title", {
+            duration: 1,
+            autoAlpha: 1,
+            y: 0,
+            ease: "power3.out",
+          })
+          .to(
+            "#characters-section .character-list-item",
+            {
+              duration: 0.6,
+              autoAlpha: 1,
+              x: 0,
+              stagger: 0.1,
+              ease: "power2.out",
+            },
+            "-=0.7"
+          );
+
+        const characterSelectors = document.querySelectorAll(
+          ".character-list-item"
+        );
+        const charactersSection = document.querySelector("#characters-section");
+        const characterInfoPanels = document.querySelectorAll(
+          ".character-info-panel"
+        );
+        const characterBackgrounds = {
+          frieren: "url('images/bg-frieren.jpg')",
+          fern: "url('images/bg-fern.jpg')",
+          stark: "url('images/bg-stark.jpg')",
+          himmel: "url('images/bg-himmel.jpg')",
+        };
+
+        characterSelectors.forEach((selector) => {
+          selector.addEventListener("click", () => {
+            if (gsap.isTweening(".character-info-panel")) return;
+
+            const characterName = selector.dataset.character;
+            const currentActiveSelector = document.querySelector(
+              ".character-list-item.active"
+            );
+
+            if (
+              currentActiveSelector &&
+              currentActiveSelector.dataset.character === characterName
+            )
+              return;
+
+            if (currentActiveSelector)
+              currentActiveSelector.classList.remove("active");
+            selector.classList.add("active");
+
+            charactersSection.style.backgroundImage =
+              characterBackgrounds[characterName];
+
+            characterInfoPanels.forEach((panel) => {
+              panel.classList.remove("active");
+
+              gsap.to(panel, {
+                duration: 0.4,
+                autoAlpha: 0,
+                x: -30,
+                ease: "power2.in",
+              });
+            });
+
+            const nextPanel = document.querySelector(
+              `#${characterName}-content`
+            );
+            if (nextPanel) {
+              nextPanel.classList.add("active");
+
+              gsap.fromTo(
+                nextPanel,
+                { autoAlpha: 0, x: 30 },
+                {
+                  duration: 0.6,
+                  autoAlpha: 1,
+                  x: 0,
+                  ease: "power3.out",
+                  delay: 0.2,
+                }
+              );
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
