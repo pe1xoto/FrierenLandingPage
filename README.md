@@ -32,7 +32,7 @@ I created this landing page project for "Frieren" using only **HTML, CSS, vanill
 
 This project is not very responsive, I kinda got lazy about fixing it. It was developed on a **1920x1080 (16:9)** monitor and is best viewed at a **1920x911** resolution.
 
-Maybe I'll get around to fixing the responsiveness issues someday!
+Maybe I'll get around to fixing the responsiveness issues someday!!
 
 ---
 
